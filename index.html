@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Média de Notas</title>
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <main>
+        <div>
+            <p>Avaliações dos CLientes</p>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                        <td>Nota</td>
+                        <td>Clientes</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th><i class="fa-solid fa-star"></i></th>
+                            <th>2</th>
+                        </tr>
+                        <tr>
+                            <th><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></th>
+                            <th>15</th>
+                        </tr>
+                        <tr>
+                            <th><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></th>
+                            <th>18</th>
+                        </tr>
+                        <tr>
+                            <th><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></th>
+                            <th>25</th>
+                        </tr>
+                        <tr>
+                            <th><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></th>
+                            <th>40</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <button onclick="calculateAverage()">Calcular Média</button>
+            </div>
+        </div>
+        <div class="containerAverage none">
+            <p>A média do restaurante é:</p>
+            <p class="average"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
