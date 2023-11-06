@@ -14,50 +14,57 @@
     <title>Média de Notas</title>
   </head>
   <body>
-    <header>
-
-    </header>
+    <header>Fine Sweets</header>
     <main>
-        <div>
-            <p>Avaliações dos CLientes</p>
-            <div>
-                <table>
-                    <thead>
-                        <tr>
-                        <td>Nota</td>
-                        <td>Clientes</td>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th><i class="fa-solid fa-star"></i></th>
-                            <th>2</th>
-                        </tr>
-                        <tr>
-                            <th><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></th>
-                            <th>15</th>
-                        </tr>
-                        <tr>
-                            <th><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></th>
-                            <th>18</th>
-                        </tr>
-                        <tr>
-                            <th><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></th>
-                            <th>25</th>
-                        </tr>
-                        <tr>
-                            <th><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></th>
-                            <th>40</th>
-                        </tr>
-                    </tbody>
-                </table>
-                <button onclick="calculateAverage()">Calcular Média</button>
-            </div>
+      <div class="assessments">
+        <span class="title">Avaliações dos CLientes</span>
+        <div class="divTable">
+          <table>
+            <thead>
+              <tr>
+                <td>Nota</td>
+                <td>Clientes</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th><i class="fa-solid fa-star"></i></th>
+                <th>2</th>
+              </tr>
+              <tr>
+                <th><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></th>
+                <th>15</th>
+              </tr>
+              <tr>
+                <th>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </th>
+                <th>18</th>
+              </tr>
+              <tr>
+                <th>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                </th>
+                <th>25</th>
+              </tr>
+              <tr>
+                <th>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </th>
+                <th>40</th>
+              </tr>
+            </tbody>
+          </table>
+          <button onclick="calculateAverage()">Calcular Média</button>
         </div>
         <div class="containerAverage none">
-            <p>A média do restaurante é:</p>
+            <i class="fa-solid fa-square-check"></i>
+            <span>A média do restaurante é:</span>
             <p class="average"></p>
         </div>
+      </div>
     </main>
 
     <script src="script.js"></script>
