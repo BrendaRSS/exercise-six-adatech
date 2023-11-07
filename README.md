@@ -1,5 +1,3 @@
-# exercise-six-adatech
-
 # Exercício 6: Vem Ser Tech - Front End | Ada Tech
 
 ## Sobre
